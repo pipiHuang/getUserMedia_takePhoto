@@ -1,0 +1,27 @@
+<html manifest=node.manifest>
+<head>
+	<meta charset='utf-8'>
+	<title>Main</title>
+    
+	<!-- local file -->
+	<link rel=stylesheet type='text/css' href='CSS/mycss.css'>
+    <script src="connect.js"></script>
+
+    <script src="jquery/jquery-2.1.0.min.js"></script>
+    <script src="jquery/simple-slider.min.js"></script>
+</head>
+<body>
+    <div class="contentArea">
+        <div class="camera">
+            <video id="video" style='margin-top:30px;'></video>
+            <button id="takePhoto">Take photo</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="outPhoto">
+            <img id="photo" alt="The capture screen will appear in this box">
+        </div>
+    </div>
+
+</body>
+</html>
+
